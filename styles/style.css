@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    color: #000000;
+    background-color: #ffffff;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+    padding: 0;
+    margin: 0;
+}
+header, footer {
+    text-align: center;
+    padding: 20px;
+  }
+.head {
+    
+    background-image: url(./src/2-2-images/head.jpeg);
+    background-size: cover;
+      
+      
+}
+h1 {
+    font-size: 60px;
+    color: #333;
+    margin: 0;
+}
+.about-me {
+    text-align: center;
+    font-size: 30px
+  }
+  
+h2 {
+    font-size: 24px;
+    color: #666;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* расположение элементов в ряд */
+    align-items: center; /* выравнивание элементов вертикально по центру */
+    gap: 20px; /* расстояние между элементами */
+  }
+  
+.skills-list {
+    list-style-type: none; /* удаление маркера списка */
+    margin: 0; /* удаление отступов внутри списка */
+    padding: 0; /* удаление отступов вокруг списка */
+    position: absolute;
+    top: 300px;
+    left: 800px;
+  }
+  
+.skills-list li {
+    margin: 10px 0; /* отступы между элементами списка */
+  }
+  
+.skills-txt {
+    margin: 0; /* удаление отступов вокруг заголовка */
+    position: absolute;
+    top: 270px;
+    left: 800px;
+    font-size: 20px;
+  }
+  
+.main-image {
+    max-width: 400px; /* максимальная ширина изображения */
+    margin-right: 20px; /* отступ справа от изображения */
+    border-radius: 50px 0;
+    position: absolute;
+    top: 270px;
+    left: 200px;
+  }
+  
+
+
+.technologies {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.techn {
+    margin: 0; /* удаление отступов вокруг заголовка */
+    position: absolute;
+    top: 570px;
+    left: 240px;
+    font-size: 20px;
+}
+.img-icon img {
+    width: 80px;
+}
+.img-icon img:nth-child(1) {
+  position: absolute;
+  top: 630px;
+  left: 180px;
+}
+.img-icon img:nth-child(2) {
+  position: absolute;
+  top: 630px;
+  left: 270px;
+}
+.img-icon img:nth-child(3) {
+  position: absolute;
+  top: 630px;
+  left: 360px;
+}
+.contacs {
+    position: absolute;
+    top: 750px;
+    left: 200px;
+    width: 50%;
+    padding: 10px;
+  }
+
+.phone {
+   position: absolute;
+   top: 30px;
+   left: 2px;
+   width: 600px; /* задаем ширину изображения */
+   height: 30px; 
+   max-width: 400px;
+}
+.gmail {
+   position: absolute;
+   top: 200px;
+   left: 10px;
+}
+.github {
+   position: absolute;
+   top: 230px;
+   left: 2px;
+}
+
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 200px;
+}
+  
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+label {
+    color: white;
+  }
+  
+  
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+   
+form {
+    border: 2px solid black;
+    border-radius: 0 40px;;
+    padding: 20px;
+    background-color: black;
+    position: absolute;
+    top: 750px;
+    left: 800px;
+  }
+.footr {
+    position: absolute;
+    top: 1250px;
+    left: 600px;
+    font-size: 40px;
+ }
+.footr {
+    
+    background-image: url(./src/2-2-images/footr.jpeg);
+    background-size: cover;
+}
+  
+  
+
+  
+  
+  
+  

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        
+        <meta charset="UTF-8">
+        <!-- title and description -->
+        <title>Title</title>
+        <meta name="description" content="Description content.">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- styles -->
+        <link rel="stylesheet" href="./styles/style.css" type="text/css">
+        <!-- icons -->
+        <link rel="icon" href="favicon.png"> <!--32х32-->
+        <link rel="apple-touch-icon" href="./src/icons/touch-icon-iphone.png"> <!--60х60-->
+        <link rel="apple-touch-icon" sizes="76x76" href="./src/icons/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./src/icons/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./src/icons/touch-icon-ipad-retina.png">
+        <!-- open graph -->
+        <meta property="og:title" content="Open graph title" />
+        <!--
+        <meta property="og:type" content="./src/video/mp4" />
+        <meta property="og:video" content="https://site.com/video/example.mp4" />
+        -->
+        <!--
+        <meta property="og:type" content="./src/audio/mp3" />
+        <meta property="og:audio" content="https://site.com/audio/example.mp3" />
+        -->
+        <meta property="og:type" content="article" /> <!-- if not audio and not video -->
+        <meta property="og:url" content="https://website.com/" />
+        <meta property="og:image" content="./src/icons/og.png" /> <!-- OG image is 1200×630 pixels  -->
+        <meta property="og:site_name" content="website.com" /> <!-- not important -->
+        <meta property="og:description" content="Description content." /> <!-- not important -->
+        <meta property="og:locale" content="en_US" /> <!-- default: "en_US" -->
+       
+    </head>
+    <body>
+        <header class="head">
+            <h1>Turaeva Viktoria</h1>
+            <h2>Front-end developer</h2>
+        </header>
+
+        <!-- content -->
+        <main>
+            <div class="about-me">
+                <p style="text-align:center;">About me</p>
+            </div>
+              
+            <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+                <div style="display:flex;align-items:center;">
+                    <img src="./src/2-2-images/1662370013_j-15.jpg" alt="Main Image" class="main-image">
+                    <ul class="skills-list">
+                        <li>*HTML</li>
+                        <li>*CSS</li>
+                        <li>*JavaScript</li>
+                    </ul>
+                </div>
+                <h4 class="skills-txt">My Skills</h4>
+
+            </div>
+              
+            <div>
+                <h4 class="techn">Technologies</h4>
+                <div class="img-icon" style="display:flex;justify-content:space-around;">
+                    <img src="./src/2-2-images/skills-images-frontend-css3.png">
+                    <img src="./src/2-2-images/skills-images-frontend-html5.png">
+                    <img src="./src/2-2-images/skills-images-frontend-js.png">
+                </div>
+            <div class="contacs">
+                <a class="phone" href="https://www.footprintcalculator.org/en/results/0/summary"><img src="./src/2-2-images/contact-images-icon-phone.png">+7(705)1970091 </a>
+                <a class="gmail" href="https://www.footprintcalculator.org/en/results/0/summary">gmail</a>
+                <a class="github" href="https://www.footprintcalculator.org/en/results/0/summary"><img src="./src/2-2-images/contact-images-icon-github.png">github</a>
+            </div>
+            
+            <form>
+                <label for="name" >name</label>
+                <input id="name" type="text"> 
+                <label for="contacts">Contacts</label>
+                <input id="contacts" type="text">
+                <label for ="message">Message</label>
+                <textarea id="message"></textarea>
+                
+                <div>
+                    <input type="button" value="SEND">
+                </div>
+
+
+            </form>
+           
+            
+        </main>
+        <footer class="footr">2023</footer>
+
+
+        <!-- scripts -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
